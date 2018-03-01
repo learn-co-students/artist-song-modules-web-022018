@@ -3,11 +3,7 @@ require "pry"
 module Memorable
 
   module ClassMethods
-
-    def all
-      self.class
-    end
-
+    
     def reset_all
       self.all.clear
     end
